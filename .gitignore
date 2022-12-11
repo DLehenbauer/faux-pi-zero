@@ -15,6 +15,7 @@
 /hw/fp-info-cache
 /hw/*-backups/*.zip
 /hw/jlcpcb-import/Schematic/*_lib.bak
+/hw/#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 /hw/*.net
