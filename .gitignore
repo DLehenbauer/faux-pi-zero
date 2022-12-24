@@ -16,6 +16,7 @@
 /hw/*-backups/*.zip
 /hw/jlcpcb-import/Schematic/*_lib.bak
 /hw/#auto_saved_files#
+/hw/*-bak
 
 # Netlist files (exported from Eeschema)
 /hw/*.net
