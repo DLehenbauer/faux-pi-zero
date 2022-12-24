@@ -30,7 +30,7 @@ Untested.  Currently awaiting first test boards from JLCPCB.
 
 See [schematic](#schematic) for more details.
 
-[![](docs/assets/pinout.drawio.svg)](docs/assets/pinout.drawio.svg)
+[![](docs/assets/pinout.drawio.svg)](https://raw.githubusercontent.com/DLehenbauer/faux-pi-zero/main/docs/assets/pinout.drawio.svg)
 
 ### Mapping from Pi Zero to Faux Px Zero
 
