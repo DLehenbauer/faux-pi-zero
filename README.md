@@ -13,9 +13,10 @@ This board aids with migrating a project from the Pi Zero to the RP2040 while re
 Works, but 1 of 2 boards received by JLCPCB had a solder bridge on the RP2040.  Looking at JLCPCB's EasyEDA footprints, it looks like JLCPCB used longer pads for the RP2040.  I'd recommend using a custom footprint and extending the pads, which hopefully will avoid defects.
 
 A couple other things I'd change in retrospect:
-* Expose UART TX/RX on the debug header and reorder pins so you can just "plug in" a Raspberry Pi Pico.
+* Expose UART TX/RX on the debug header and reorder pins so you can plug a [picoprobe](https://github.com/raspberrypi/picoprobe) into the board w/o wires.
 * Remove the hacky activity LED from the microSD since [the lib](https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico) already blinks GP25.
 * Try for a 2 layer board to reduce cost
+* Reduce buttons to 6 x 3.5 and maybe try to squeeze in an optional wireless module
 
 There is also an interrupt conflict between [PicoDVI](https://github.com/Wren6991/PicoDVI) and [no-OS-FatFS-SD-SPI-RPi-Pico](https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico) that I haven't investigated (software issue), but DVI and microSD both appear to work when tested independently (hardware looks ok).
 
