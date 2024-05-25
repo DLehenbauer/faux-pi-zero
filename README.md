@@ -1,6 +1,6 @@
 # Faux Pi Zero
 
-RP2040 dev board in a Raspberry Pi Zero compatible form factor.  Includes Mini HDMI (via [bitbanged DVI](https://github.com/Wren6991/PicoDVI)) and microSD.
+Open hardware RP2040 dev board in a Raspberry Pi Zero compatible form factor.  Includes Mini HDMI (via [bitbanged DVI](https://github.com/Wren6991/PicoDVI)) and microSD.
 
 [![](docs/assets/render.jpg)](docs/assets/render.jpg)
 
