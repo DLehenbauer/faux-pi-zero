@@ -18,7 +18,7 @@ A couple other things I'd change in retrospect:
 * Try for a 2 layer board to reduce cost
 * Reduce buttons to 6 x 3.5 and maybe try to squeeze in an optional wireless module
 
-DVI and microSD both appear to work when tested.  I've exercised DVI, USB (host), SPI1, and the debug header quite a bit (all good).  Other functionality is either lightly tested or untested.
+DVI and microSD both appear to work with a basic test.  I've exercised DVI, USB (host), SPI1, and the debug header quite a bit (all good).  Other functionality is either lightly tested or untested.
 
 ## Features
 
