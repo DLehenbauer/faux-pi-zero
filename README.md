@@ -18,9 +18,7 @@ A couple other things I'd change in retrospect:
 * Try for a 2 layer board to reduce cost
 * Reduce buttons to 6 x 3.5 and maybe try to squeeze in an optional wireless module
 
-There is also an interrupt conflict between [PicoDVI](https://github.com/Wren6991/PicoDVI) and [no-OS-FatFS-SD-SPI-RPi-Pico](https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico) that I haven't investigated (software issue), but DVI and microSD both appear to work when tested independently (hardware looks ok).
-
-I've exercised DVI, USB (host), SPI1, and the debug header quite a bit (all good).  Other functionality is either lightly tested or untested.
+DVI and microSD both appear to work when tested.  I've exercised DVI, USB (host), SPI1, and the debug header quite a bit (all good).  Other functionality is either lightly tested or untested.
 
 ## Features
 
